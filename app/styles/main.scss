@@ -1,0 +1,27 @@
+// Your application styles go here
+
+$color-dark: rgb(228, 56, 54);
+$color: rgb(245, 73, 61);
+.bar.bar-stable {
+  background-color: $color;
+  .button.button-clear, .title {
+    color: white;
+  }
+}
+
+.menu {
+  ion-content, ion-item, ion-item a.item-content  {
+    color: white;
+    border-color: white;
+    background-color: $color-dark;
+  }
+}
+
+.angular-leaflet-map {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
