@@ -1,0 +1,11 @@
+<ion-modal-view>
+  <ion-header-bar class="bar bar-header bar-positive">
+    <h1 class="title">{{model.metaData.full.Summary}}</h1>
+    <div class="button button-clear" ng-click="modal.hide()"><span class="icon ion-close"></span></div>
+  </ion-header-bar>
+  <ion-content class="not-found-content">
+    You have not discovered this area
+    <i class="fa fa-question"></i>
+    <button class="modal-close button button-stable" ng-click="close()">Close</button>
+  </ion-content>
+</ion-modal-view>

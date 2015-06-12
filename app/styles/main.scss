@@ -10,7 +10,7 @@ $color: rgb(245, 73, 61);
 }
 
 .menu {
-  ion-content, ion-item, ion-item a.item-content  {
+  ion-content, ion-item, ion-item a.item-content {
     color: white;
     border-color: white;
     background-color: $color-dark;
@@ -24,4 +24,31 @@ $color: rgb(245, 73, 61);
 
 .scroll {
   height: 100%;
+}
+
+ion-modal-view {
+  ion-content, ion-header-bar h1 {
+    background-color: rgb(68, 68, 68);
+    color: white;
+  }
+
+  ion-header-bar h1 {
+    margin: 0 !important;
+    background: #2e2e2e;
+  }
+
+  .not-found-content {
+    text-align: center;
+    .fa-question {
+      font-size: 200px;
+      display: block;
+      margin-top: 25px;
+
+    }
+  }
+
+  ion-content .scroll {
+    padding: 20px;
+  }
+
 }
